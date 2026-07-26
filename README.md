@@ -7,7 +7,7 @@ A full-stack, local Arabic Voice Assistant pipeline built with Python. This proj
 ## 🚀 Key Features
 
 * **Local Speech-to-Text (STT):** Powered by **OpenAI's Whisper** model, enabling offline, highly accurate Arabic speech transcription.
-* **Custom Vocabulary Prompting:** Uses custom initial prompts to accurately transcribe specific proper nouns and technical terms (e.g., "Engineer Mosaab").
+* **Custom Vocabulary Prompting:** Uses custom initial prompts to accurately transcribe specific proper nouns and technical terms (e.g., "Engineer Musab").
 * **RTL Arabic Display Fix:** Integrated `arabic_reshaper` and `python-bidi` to fix disconnected and reversed Arabic text issues inside standard terminals/consoles.
 * **Intelligent LLM Responses:** Integrates with Cohere's API (`command-r7b-arabic-02-2025`) configured with dynamic system personas.
 * **Arabic Text-to-Speech (TTS):** Leverages `gTTS` and `pygame` for smooth, high-quality Arabic audio synthesis and playback.
